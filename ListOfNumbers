@@ -1,0 +1,19 @@
+var numberIncrement = (start , end) => {
+    let arr = []
+    for(var i=start;i<=end;i++){
+        arr.push(i)
+    }
+    return arr
+}
+
+console.log(numberIncrement(1,25))
+console.log(numberIncrement(26,50))
+
+var incrementNum = (start , end) => {
+    for(var i=start; i <= end; i++){
+        console.log(i)
+    }
+}
+
+incrementNum(1,25)
+incrementNum(26,50)

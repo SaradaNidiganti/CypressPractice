@@ -1,0 +1,20 @@
+{
+  "name": "cypressautomation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "AreaCalc.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "\"sarada\"",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^13.4.0",
+    "cypress-cucumber-preprocessor": "^4.3.1"
+  },
+  "devDependencies": {
+    "@cypress/xpath": "^2.0.3",
+    "cypress-iframe": "^1.0.1",
+    "cypress-xpath": "^2.0.1"
+  }
+}
